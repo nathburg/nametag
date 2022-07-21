@@ -1,8 +1,18 @@
-// import functions and grab DOM elements
+const nameInput = document.getElementById("name-input");
+const nameButton = document.getElementById("name-button");
+const middle = document.getElementById("middle");
 
-// let state
+nameButton.addEventListener('click', () => {
+const value = nameInput.value;
+middle.textContent = value;
+})
 
-// set event listeners 
-  // get user input
-  // use user input to update state 
-  // update DOM to reflect the new state
+
+const bloodInput = document.getElementById('blood-input');
+const bloodButton = document.getElementById('blood-button');
+const bloodType = document.getElementById("blood-type");
+
+bloodButton.addEventListener('click', () => {
+  const value = bloodInput.value;
+  bloodType.textContent = value;
+})
