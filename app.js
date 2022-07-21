@@ -1,9 +1,18 @@
 const nameInput = document.getElementById("name-input");
-const updateButton = document.getElementById("update-button");
+const nameButton = document.getElementById("name-button");
 const middle = document.getElementById("middle");
 
-updateButton.addEventListener('click', () => {
-  const value = nameInput.value;
-  middle.textContent = value;
+nameButton.addEventListener('click', () => {
+const value = nameInput.value;
+middle.textContent = value;
 })
 
+
+const bloodInput = document.getElementById('blood-input');
+const bloodButton = document.getElementById('blood-button');
+const bloodType = document.getElementById("blood-type");
+
+bloodButton.addEventListener('click', () => {
+  const value = bloodInput.value;
+  bloodType.textContent = value;
+})

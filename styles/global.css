@@ -35,18 +35,31 @@ footer {
     background-color: var(--footer-background);
 }
 
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
 #nametag {
     height: 300px;
     width: 400px;
+    margin-top: 30px;
 
 }
 
 #top {
     height: 125px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: deepskyblue;
+    background-image: url('foil-top-slice-halfsize.png');
     border-radius: 20px 20px 0 0;
 
 }
@@ -62,8 +75,10 @@ footer {
 #bottom {
     height: 50px;
     display: flex;
-    justify-content: center;
+    justify-content: start;
+    padding: 20px;
     align-items: center;
     background-color: deepskyblue;
     border-radius: 0 0 20px 20px;
+    font-size: 12px;
 }
